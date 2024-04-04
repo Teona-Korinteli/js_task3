@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(51, 51, 100);
+  color: white;
+}
+
+.game {
+  width:150px;
+  height:150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;;
+}
+
+.graph {
+  border: 1px solid white;
+  background-color: rgb(51, 51, 100);
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+p{
+  margin-top: 10px;
+}
+button {
+  color:white;
+  background-color: blue;
+  border:none;
+  padding:5px 15px;
+  margin-top:25px;
+  margin-left:37px;
+
+}
